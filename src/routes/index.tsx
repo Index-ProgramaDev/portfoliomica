@@ -1,9 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
 import type { ReactNode } from "react";
-import video from "@/assets/iodo-video.mp4.asset.json";
-import resultado from "@/assets/resultado-amido.jpg.asset.json";
-import pesagem from "@/assets/pesagem-amido.jpg.asset.json";
-import solucao from "@/assets/solucao-amido.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -79,7 +75,7 @@ function Index() {
       </p>
 
       <Fig n={1} legenda="Gotejamento da tintura de iodo sobre o arroz e a bolacha.">
-        <video src={video.url} controls playsInline className="w-full" />
+        <video src="/video/iodo-video.mp4" controls playsInline className="w-full" />
       </Fig>
 
       <Q q="O que é amido e qual é sua função nos vegetais?">
@@ -100,7 +96,7 @@ function Index() {
       </Q>
 
       <Fig n={2} legenda="Resultado: à esquerda, arroz e bolacha escurecidos (amido presente); à direita, açúcar e leite em pó com a cor do iodo (sem amido detectável).">
-        <img src={resultado.url} alt="Placas com alimentos após o iodo" className="w-full" />
+        <img src="/images/resultado-amido.jpg" alt="Placas com alimentos após o iodo" className="w-full" />
       </Fig>
 
       <table className="w-full text-left text-sm">
@@ -133,10 +129,10 @@ function Index() {
       </p>
 
       <Fig n={3} legenda="Pesagem do amido de milho no erlenmeyer de 125 mL.">
-        <img src={pesagem.url} alt="Pesagem do amido de milho" className="w-full" />
+        <img src="/images/pesagem-amido.jpg" alt="Pesagem do amido de milho" className="w-full" />
       </Fig>
       <Fig n={4} legenda="Solução de amido pronta para o teste.">
-        <img src={solucao.url} alt="Erlenmeyer com solução de amido" className="w-full" />
+        <img src="/images/solucao-amido.jpg" alt="Erlenmeyer com solução de amido" className="w-full" />
       </Fig>
 
       <Q q="O que é a ptialina? Onde é produzida e sobre o que atua?">
