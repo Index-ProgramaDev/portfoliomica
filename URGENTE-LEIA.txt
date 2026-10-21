@@ -1,0 +1,122 @@
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║              ⚠️  ATENÇÃO: FALTAM AS FOTOS E VÍDEO! ⚠️           ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+
+
+═══════════════════════════════════════════════════════════════════
+  😓 PROBLEMA
+═══════════════════════════════════════════════════════════════════
+
+As fotos e o vídeo NÃO ESTÃO no projeto!
+
+Eles estavam apontando para URLs do Lovable que não existem mais.
+
+
+═══════════════════════════════════════════════════════════════════
+  ✅ SOLUÇÃO (SIMPLES!)
+═══════════════════════════════════════════════════════════════════
+
+VOCÊ PRECISA ADICIONAR OS ARQUIVOS MANUALMENTE:
+
+1. Pegue as fotos originais do experimento
+2. Pegue o vídeo original
+3. Coloque nas pastas certas
+
+
+═══════════════════════════════════════════════════════════════════
+  📁 ONDE COLOCAR OS ARQUIVOS
+═══════════════════════════════════════════════════════════════════
+
+📸 FOTOS (formato .jpg):
+
+Copie para: C:\Users\Usuario\Downloads\Mica\public\images\
+
+Arquivos necessários:
+  ✅ resultado-amido.jpg
+  ✅ pesagem-amido.jpg
+  ✅ solucao-amido.jpg
+
+
+🎥 VÍDEO (formato .mp4):
+
+Copie para: C:\Users\Usuario\Downloads\Mica\public\video\
+
+Arquivo necessário:
+  ✅ iodo-video.mp4
+
+
+═══════════════════════════════════════════════════════════════════
+  🚀 PASSO A PASSO
+═══════════════════════════════════════════════════════════════════
+
+1. Abra o Windows Explorer
+
+2. Navegue até:
+   C:\Users\Usuario\Downloads\Mica\public\
+
+3. Você vai ver 2 pastas:
+   - images  (para as 3 fotos)
+   - video   (para o 1 vídeo)
+
+4. Copie os arquivos para as pastas corretas
+
+5. IMPORTANTE: Os nomes devem ser EXATAMENTE:
+   - resultado-amido.jpg
+   - pesagem-amido.jpg
+   - solucao-amido.jpg
+   - iodo-video.mp4
+
+
+═══════════════════════════════════════════════════════════════════
+  💻 DEPOIS DE ADICIONAR
+═══════════════════════════════════════════════════════════════════
+
+Abra o PowerShell na pasta do projeto e execute:
+
+cd "C:\Users\Usuario\Downloads\Mica"
+git add public/images public/video
+git commit -m "Adiciona fotos e vídeo"
+git push
+
+
+═══════════════════════════════════════════════════════════════════
+  📋 STATUS ATUAL
+═══════════════════════════════════════════════════════════════════
+
+✅ Código limpo (sem Lovable)
+✅ Info da equipe adicionada
+✅ Git configurado
+✅ Código no GitHub
+✅ Frontend funcionando
+✅ Pastas criadas
+❌ FALTAM OS ARQUIVOS DE MÍDIA ← VOCÊ PRECISA ADICIONAR!
+
+
+═══════════════════════════════════════════════════════════════════
+  ℹ️  INFORMAÇÃO
+═══════════════════════════════════════════════════════════════════
+
+Os arquivos que estavam no projeto eram apenas JSON com URLs
+do Lovable. Os arquivos REAIS (fotos e vídeo) não estavam aqui.
+
+Você precisa pegar os arquivos originais e colocá-los no projeto.
+
+
+═══════════════════════════════════════════════════════════════════
+  📖 GUIA COMPLETO
+═══════════════════════════════════════════════════════════════════
+
+Leia o arquivo: ADICIONAR-MIDIAS.md
+
+Tem instruções detalhadas de como fazer!
+
+
+═══════════════════════════════════════════════════════════════════
+
+Desculpa pelo problema! Mas agora está tudo preparado.
+
+É só você adicionar as fotos e o vídeo nas pastas corretas! 👍
+
+═══════════════════════════════════════════════════════════════════
