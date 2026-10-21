@@ -57,7 +57,7 @@ function Index() {
               ["Turma", "2C"],
               ["Componente curricular", "Biologia"],
               ["Professora", "Micaelle"],
-              ["Integrantes", "Daniel, Julia, Emily, Larissa, Alice"],
+              ["Integrantes", "Daniel, Julia, Emily, Larissa, Alice, Evilin"],
             ].map(([k, v]) => (
               <tr key={k} className="border-b border-border">
                 <td className="py-1.5 pr-4 text-muted-foreground">{k}</td>
