@@ -1,0 +1,92 @@
+═══════════════════════════════════════════════════════════════
+  GUIA RÁPIDO DE DEPLOY - 3 PASSOS SIMPLES
+  Portfólio Sistema Digestório - Turma 2C Senac
+═══════════════════════════════════════════════════════════════
+
+📌 PASSO 1: SUBIR PARA O GITHUB
+────────────────────────────────────────────────────────────────
+
+1. Crie uma conta no GitHub (se não tiver): https://github.com
+2. Crie um novo repositório (botão verde "New")
+3. Abra o PowerShell NESTA PASTA do projeto
+4. Execute estes comandos (um por vez):
+
+   git init
+   git add .
+   git commit -m "Portfólio Turma 2C"
+   git branch -M main
+   git remote add origin https://github.com/SEU-USUARIO/SEU-REPO.git
+   git push -u origin main
+
+   ⚠️ Substitua a URL pela do seu repositório!
+
+────────────────────────────────────────────────────────────────
+
+📌 PASSO 2: CRIAR CONTA NO VERCEL
+────────────────────────────────────────────────────────────────
+
+1. Acesse: https://vercel.com
+2. Clique em "Sign Up"
+3. Escolha "Continue with GitHub"
+4. Faça login com sua conta do GitHub
+5. Autorize o Vercel
+
+────────────────────────────────────────────────────────────────
+
+📌 PASSO 3: FAZER O DEPLOY
+────────────────────────────────────────────────────────────────
+
+1. No Vercel, clique em "Add New..." → "Project"
+2. Clique em "Import" no seu repositório
+3. Deixe as configurações como estão
+4. Clique em "Deploy"
+5. Aguarde 2-3 minutos
+6. PRONTO! Seu site está no ar! 🎉
+
+────────────────────────────────────────────────────────────────
+
+✅ CHECKLIST
+
+□ Git instalado (baixe em: https://git-scm.com)
+□ Conta criada no GitHub
+□ Código enviado para o GitHub
+□ Conta criada no Vercel
+□ Deploy realizado
+
+────────────────────────────────────────────────────────────────
+
+🆘 SE DER ERRO
+
+• Git: Leia GIT-GUIDE.md
+• Deploy: Leia DEPLOY.md
+• Código: Leia README.md
+
+────────────────────────────────────────────────────────────────
+
+📝 INFORMAÇÕES DO PROJETO
+
+Turma: 2C
+Instituição: Senac Paulista
+Disciplina: Biologia
+Professora: Micaelle
+
+Equipe:
+- Daniel
+- Julia  
+- Emily
+- Larissa
+- Alice
+
+────────────────────────────────────────────────────────────────
+
+💡 COMANDOS ÚTEIS
+
+Testar localmente:        npm run dev
+Criar build de produção:  npm run build
+Ver versão do Git:        git --version
+
+────────────────────────────────────────────────────────────────
+
+Boa sorte! 🚀
+
+═══════════════════════════════════════════════════════════════
